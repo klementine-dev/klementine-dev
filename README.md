@@ -6,15 +6,15 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Kristine Madronero, Frontend Developer, Graphic Designer, Data Analyst" />
+<img src="https://raw.githubusercontent.com/klementine-dev/klementine-dev/main/assets/banner.svg" width="100%" alt="Kristine Madronero, Frontend Developer, Graphic Designer, Data Analyst" />
 
 <a href="https://github.com/klementine-dev/kriativod3">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C084FC&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Kristine+%F0%9F%91%8B+a.k.a.+Kriativo;BSIT+student+%E2%80%A2+Web+%26+Mobile+Apps;Frontend+Developer+%E2%80%A2+Graphic+Designer;Data+Analytics+enthusiast+%F0%9F%93%8A;Turning+ideas+into+interfaces+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C084FC&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Kristine+%F0%9F%91%8B;BSIT+student+%E2%80%A2+Web+%26+Mobile+Apps;Frontend+Developer+%E2%80%A2+Graphic+Designer;Data+Analytics+enthusiast+%F0%9F%93%8A;Turning+ideas+into+interfaces+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<a href="https://github.com/klementine-dev/kriativod3"><img src="https://img.shields.io/badge/PORTFOLIO-Kriativo_D3-7c3aed?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Portfolio" /></a>
+<a href="https://github.com/klementine-dev/kriativod3"><img src="https://img.shields.io/badge/PORTFOLIO-View_my_work-7c3aed?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/krismadronero"><img src="https://img.shields.io/badge/LINKEDIN-krismadronero-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:madrnrkris@gmail.com"><img src="https://img.shields.io/badge/EMAIL-madrnrkris@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://facebook.com/rikstn"><img src="https://img.shields.io/badge/FACEBOOK-rikstn-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
@@ -29,15 +29,12 @@
 
 ## 👩‍💻 About Me
 
-I'm **Kristine Madronero**, better known as **Kriativo**: a multidisciplinary creative focused on **frontend development**, **graphic design**, and **data-driven problem-solving**.
-
-What started as a creative brand for freelance client work grew into a personal identity that shapes how I build things: **creativity + technology + thoughtful design**.
+I'm **Kristine Madronero**, a multidisciplinary creative focused on **frontend development**, **graphic design**, and **data-driven problem-solving**.
 
 - 🎓 Pursuing a **BS in Information Technology**, majoring in **Web and Mobile Applications**
 - 🎨 Freelance graphic designer since **2022** and former **Editor-in-Chief** and **Layout Artist** in campus journalism
 - 🎬 I also shoot, direct, and edit short films
 - 🏆 Certified in **IT fundamentals, databases, networking, data science, Excel, and AI**
-- 🛠️ Building **VS Code-inspired interfaces** because I like my portfolios to feel like home
 
 ---
 
@@ -141,7 +138,7 @@ What started as a creative brand for freelance client work grew into a personal 
 | 🚌 **cAIabe** | AI-assisted jeepney commuting for Angeles City, Pampanga: route planning for passengers and a demand-aware co-pilot for drivers | `Supabase` `Gemini` `Whisper` | [Repo](https://github.com/friedraiz/cAIabe) |
 | 🍥 **Nekai** | Responsive anime watchlist with live anime search and an AI chatbot for recommendations | `HTML` `CSS` `JavaScript` `Express` `Supabase` | [Repo](https://github.com/jnncy-techcookie/nekai) |
 | 📄 **NUSign** | Campus-based real-time document tracking application | `HTML` `CSS` `JavaScript` | — |
-| 🖥️ **Kriativo D3** | VS Code-inspired interactive portfolio with a built-in AI assistant | `HTML` `CSS` `JavaScript` `Groq` | [Repo](https://github.com/klementine-dev/kriativod3) |
+| 🖥️ **Portfolio Website** | VS Code-inspired interactive portfolio with a built-in AI assistant | `HTML` `CSS` `JavaScript` `Groq` | [Repo](https://github.com/klementine-dev/kriativod3) |
 | 💻 **RaiOS** | OS-inspired portfolio website for Raiza Lhyn Gloria | `HTML` `CSS` `JavaScript` | [Live](https://raizalhyn-os.netlify.app/) |
 | 📊 **Global Data Science Analysis** | Data science industry trends through datasets and visual reports | `Tableau` | [View](https://public.tableau.com/views/DataScienceJobsp2/PROPOSEDLAYOUT1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
 
@@ -186,10 +183,10 @@ What started as a creative brand for freelance client work grew into a personal 
 <div align="center">
 
 <a href="https://github.com/klementine-dev">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=klementine-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=7c3aed&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=klementine-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=7c3aed&count_private=true" alt="GitHub stats" />
 </a>
 <a href="https://github.com/klementine-dev">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=klementine-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&langs_count=8" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=klementine-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&langs_count=8" alt="Top languages" />
 </a>
 
 <br/>
@@ -198,7 +195,7 @@ What started as a creative brand for freelance client work grew into a personal 
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=klementine-dev&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c084fc&line=7c3aed&point=ffffff" alt="Contribution graph" />
+<img src="https://ghchart.rshah.org/7c3aed/klementine-dev" width="95%" alt="Contribution graph" />
 
 </div>
 
@@ -223,8 +220,8 @@ I'm open to collaborations, freelance design work, and chats about frontend, des
 
 <br/><br/>
 
-<sub>⭐ Thanks for stopping by! If you like what you see, drop a star on <a href="https://github.com/klementine-dev/kriativod3">Kriativo D3</a>.</sub>
+<sub>⭐ Thanks for stopping by! If you like what you see, drop a star on <a href="https://github.com/klementine-dev/kriativod3">my portfolio</a>.</sub>
 
-<img src="assets/footer.svg" width="100%" alt="footer" />
+<img src="https://raw.githubusercontent.com/klementine-dev/klementine-dev/main/assets/footer.svg" width="100%" alt="footer" />
 
 </div>

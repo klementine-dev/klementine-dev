@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="Footer">
+  <defs>
+    <clipPath id="frame">
+      <rect width="1200" height="80" rx="18" />
+    </clipPath>
+
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#1e1b4b" />
+      <stop offset="0.28" stop-color="#4c1d95" />
+      <stop offset="0.55" stop-color="#7c3aed" />
+      <stop offset="0.78" stop-color="#c026d3" />
+      <stop offset="1" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0.35" stop-color="#0b0a1a" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#0b0a1a" stop-opacity="0.75" />
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="2400" height="80" fill="url(#flow)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite" />
+    </rect>
+    <rect width="1200" height="80" fill="url(#vignette)" />
+    <rect x="0.5" y="0.5" width="1199" height="79" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.14" />
+  </g>
+</svg>

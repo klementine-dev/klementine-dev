@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Kristine Madronero, Frontend Developer, Graphic Designer, Data Analyst">
+  <defs>
+    <clipPath id="frame">
+      <rect width="1200" height="280" rx="18" />
+    </clipPath>
+
+    <!-- Seamless repeating gradient: first and last colors match so the loop has no seam -->
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#1e1b4b" />
+      <stop offset="0.28" stop-color="#4c1d95" />
+      <stop offset="0.55" stop-color="#7c3aed" />
+      <stop offset="0.78" stop-color="#c026d3" />
+      <stop offset="1" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Darkens the edges so the white text always has strong contrast -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0.35" stop-color="#0b0a1a" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#0b0a1a" stop-opacity="0.75" />
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#e9d5ff" />
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" />
+    </pattern>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38" />
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Moving gradient base: twice the width, slides one full period and loops -->
+    <rect x="0" y="0" width="2400" height="280" fill="url(#flow)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Soft drifting light orbs -->
+    <g filter="url(#blur)" opacity="0.75">
+      <circle cx="220" cy="90" r="90" fill="#818cf8">
+        <animate attributeName="cx" values="220;420;220" dur="14s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="90;190;90" dur="11s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="960" cy="200" r="100" fill="#e879f9">
+        <animate attributeName="cx" values="960;760;960" dur="17s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="200;80;200" dur="13s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="600" cy="40" r="70" fill="#a78bfa">
+        <animate attributeName="cx" values="600;700;500;600" dur="19s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="40;120;60;40" dur="15s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <rect width="1200" height="280" fill="url(#grid)" />
+    <rect width="1200" height="280" fill="url(#vignette)" />
+
+    <!-- Thin frame -->
+    <rect x="0.5" y="0.5" width="1199" height="279" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.14" />
+
+    <!-- Text -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" text-anchor="middle" fill="#ffffff">
+
+      <text x="600" y="140" font-size="58" font-weight="700" letter-spacing="5" opacity="0">
+        KRISTINE MADRONERO
+        <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.5s" fill="freeze" />
+      </text>
+
+      <text x="600" y="190" font-size="20" font-weight="500" letter-spacing="3.5" fill="#f3e8ff" opacity="0">
+        Frontend Developer   •   Graphic Designer   •   Data Analyst
+        <animate attributeName="opacity" from="0" to="0.95" dur="1.2s" begin="0.9s" fill="freeze" />
+      </text>
+    </g>
+
+    <!-- Shimmering accent line -->
+    <rect x="300" y="222" width="600" height="2" rx="1" fill="url(#accent)" opacity="0.9">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
